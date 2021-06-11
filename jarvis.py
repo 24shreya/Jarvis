@@ -109,8 +109,8 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com',587)
     server.ehlo()
     server.starttls()
-    server.login("shreya.awesome2040@gmail.com","elcomemanzanas")
-    server.sendmail("shreya.awesome2040@gmail.com", to , content)
+    server.login("your-email","your-password")
+    server.sendmail("your-email", to , content)
     server.close()
                             
 
@@ -361,7 +361,7 @@ if __name__ == "__main__":
 
         elif 'send an email' in query or 'send mail' in query:
             speak('yes I am working on it')
-            contacts={"stupid":"jainkoshi2001@gmail.com", "myself":"raven91100@gmail.com","vaidik":"joshivedic011@gmail.com"}
+            contacts={"name1":"mailID", "name2":"mailID","name3":"mailID"}
             print("\nWho am I writing to?")
             speak("Who am I writing to?")
             name=getCommand().lower()
@@ -394,7 +394,7 @@ if __name__ == "__main__":
 
         #try sending whatsapp msgs like 'send a whatsapp msg to abha', no need to ask for names
         elif 'send a whatsapp message' in query or 'send whatsapp' in query:
-            phone_dict={"stupid":"+919024077267", "abha":"+917746081400", "mother":"+918209585956", "papa":"+918690025557","vaidik":"+919929950668"}
+            phone_dict={"name1":"+91...", "name2":"+91...", "name3":"+91...", "name4":"+91...","name5":"+91..."}
             #print('\nWho should I send this message to?')
             #speak('Who should I send this message to?')
             #name=getCommand().lower()
