@@ -1,4 +1,4 @@
-# Jarvis
+# Lexi
 
 A virtual Desktop Assistant / Chat-Bot to perform everyday tasks. 
 Uses Speech Recognition as input.
